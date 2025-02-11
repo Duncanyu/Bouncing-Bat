@@ -12,7 +12,7 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) == true){
+        if(Input.GetKeyDown(KeyCode.Space)){
             player_rigidbody.velocity = new Vector2(player_rigidbody.velocity.x, jump_power);
         }
     }
