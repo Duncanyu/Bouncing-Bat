@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 37eeb529bb38eb745964214560a670ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8785521939087242356
+    second: Exploding Bat_0
+  - first:
+      213: -6694696070567839896
+    second: Exploding Bat_1
+  - first:
+      213: 185386982180373429
+    second: Exploding Bat_2
+  - first:
+      213: -8211817921703844867
+    second: Exploding Bat_3
+  - first:
+      213: -8401687523765427278
+    second: Exploding Bat_4
+  - first:
+      213: 8178157696363095043
+    second: Exploding Bat_5
+  - first:
+      213: -246066558562981510
+    second: Exploding Bat_6
+  - first:
+      213: 1311445698472588726
+    second: Exploding Bat_7
+  - first:
+      213: -8283455305128188016
+    second: Exploding Bat_8
+  - first:
+      213: 8821164759885569472
+    second: Exploding Bat_9
+  - first:
+      213: -3066008569656765274
+    second: Exploding Bat_10
+  - first:
+      213: -50005050598938878
+    second: Exploding Bat_11
+  - first:
+      213: -6876841525717395561
+    second: Exploding Bat_12
+  - first:
+      213: 3214520562037804864
+    second: Exploding Bat_13
+  - first:
+      213: -7041661924436511785
+    second: Exploding Bat_14
+  - first:
+      213: -4517864986201496207
+    second: Exploding Bat_15
+  - first:
+      213: -7464096190035898344
+    second: Exploding Bat_16
+  - first:
+      213: -1531952481231630841
+    second: Exploding Bat_17
+  - first:
+      213: -4575694598340207232
+    second: Exploding Bat_18
+  - first:
+      213: 3106311376677596358
+    second: Exploding Bat_19
+  - first:
+      213: 2823489736486242033
+    second: Exploding Bat_20
+  - first:
+      213: -7640850889393747595
+    second: Exploding Bat_21
+  - first:
+      213: -1308952245919927473
+    second: Exploding Bat_22
+  - first:
+      213: 4660744070044776431
+    second: Exploding Bat_23
+  - first:
+      213: 7897277708839845035
+    second: Exploding Bat_24
+  - first:
+      213: -1308522040421123696
+    second: Exploding Bat_25
+  - first:
+      213: 7203542539588078485
+    second: Exploding Bat_26
+  - first:
+      213: -6366709425215035656
+    second: Exploding Bat_27
+  - first:
+      213: 7991753758641477504
+    second: Exploding Bat_28
+  - first:
+      213: 4968755574390930998
+    second: Exploding Bat_29
+  - first:
+      213: 176269242046519294
+    second: Exploding Bat_30
+  - first:
+      213: -7990404499371260460
+    second: Exploding Bat_31
+  - first:
+      213: 4998943126256126533
+    second: Exploding Bat_32
+  - first:
+      213: 4896717366273362280
+    second: Exploding Bat_33
+  - first:
+      213: 5336334390606452809
+    second: Exploding Bat_34
+  - first:
+      213: 1492777096307927171
+    second: Exploding Bat_35
+  - first:
+      213: 7348338225063725689
+    second: Exploding Bat_36
+  - first:
+      213: 919591384431360993
+    second: Exploding Bat_37
+  - first:
+      213: -7193544224078968181
+    second: Exploding Bat_38
+  - first:
+      213: 8460067611718130544
+    second: Exploding Bat_39
+  - first:
+      213: 6857578827498747327
+    second: Exploding Bat_40
+  - first:
+      213: 5599175226919788136
+    second: Exploding Bat_41
+  - first:
+      213: -1113703838079156060
+    second: Exploding Bat_42
+  - first:
+      213: 4728088351934855742
+    second: Exploding Bat_43
+  - first:
+      213: -2834851504235702974
+    second: Exploding Bat_44
+  - first:
+      213: 1505058490806838042
+    second: Exploding Bat_45
+  - first:
+      213: 5817027004489059901
+    second: Exploding Bat_46
+  - first:
+      213: -8096100487868754529
+    second: Exploding Bat_47
+  - first:
+      213: 1827297908140408202
+    second: Exploding Bat_48
+  - first:
+      213: 6231406489843029466
+    second: Exploding Bat_49
+  - first:
+      213: 3049895631758124821
+    second: Exploding Bat_50
+  - first:
+      213: 3151399811285676582
+    second: Exploding Bat_51
+  - first:
+      213: -8790474988142117947
+    second: Exploding Bat_52
+  - first:
+      213: -5213260130397683790
+    second: Exploding Bat_53
+  - first:
+      213: -4829391429245251899
+    second: Exploding Bat_54
+  - first:
+      213: -3266114486072408480
+    second: Exploding Bat_55
+  - first:
+      213: -8123047716628526094
+    second: Exploding Bat_56
+  - first:
+      213: -5710238742837540900
+    second: Exploding Bat_57
+  - first:
+      213: -490340392717158100
+    second: Exploding Bat_58
+  - first:
+      213: -9102048549465270217
+    second: Exploding Bat_59
+  - first:
+      213: -209209610063257485
+    second: Exploding Bat_60
+  - first:
+      213: -4688836328993957791
+    second: Exploding Bat_61
+  - first:
+      213: -1741672611579120153
+    second: Exploding Bat_62
+  - first:
+      213: -3424916227124383747
+    second: Exploding Bat_63
+  - first:
+      213: -3192129336687466975
+    second: Exploding Bat_64
+  - first:
+      213: 5166219596166321341
+    second: Exploding Bat_65
+  - first:
+      213: 5115002682870821323
+    second: Exploding Bat_66
+  - first:
+      213: 4197179020864842948
+    second: Exploding Bat_67
+  - first:
+      213: 6675706682510707031
+    second: Exploding Bat_68
+  - first:
+      213: -5317962218114383445
+    second: Exploding Bat_69
+  - first:
+      213: 2946495097419189049
+    second: Exploding Bat_70
+  - first:
+      213: 2382920013000490526
+    second: Exploding Bat_71
+  - first:
+      213: -6202238307745363215
+    second: Exploding Bat_72
+  - first:
+      213: -4317912813219799638
+    second: Exploding Bat_73
+  - first:
+      213: 2559045109468764785
+    second: Exploding Bat_74
+  - first:
+      213: -3155480596603166651
+    second: Exploding Bat_75
+  - first:
+      213: 5564410986502138186
+    second: Exploding Bat_76
+  - first:
+      213: 2818672529181384239
+    second: Exploding Bat_77
+  - first:
+      213: 3825332041158086630
+    second: Exploding Bat_78
+  - first:
+      213: -7475121636555015624
+    second: Exploding Bat_79
+  - first:
+      213: -6467558975200494769
+    second: Exploding Bat_80
+  - first:
+      213: 4995822610111049147
+    second: Exploding Bat_81
+  - first:
+      213: 593914918375457761
+    second: Exploding Bat_82
+  - first:
+      213: -6712444943964473834
+    second: Exploding Bat_83
+  - first:
+      213: 1910077766060219124
+    second: Exploding Bat_84
+  - first:
+      213: -3773956963167936535
+    second: Exploding Bat_85
+  - first:
+      213: 3264520303477708973
+    second: Exploding Bat_86
+  - first:
+      213: 741669830424165373
+    second: Exploding Bat_87
+  - first:
+      213: 4555689966104691330
+    second: Exploding Bat_88
+  - first:
+      213: -4993029319195308933
+    second: Exploding Bat_89
+  - first:
+      213: -1297009621324075737
+    second: Exploding Bat_90
+  - first:
+      213: -2836146739326366458
+    second: Exploding Bat_91
+  - first:
+      213: -3821203616925014258
+    second: Exploding Bat_92
+  - first:
+      213: -8995637338807392314
+    second: Exploding Bat_93
+  - first:
+      213: -4645936318826547192
+    second: Exploding Bat_94
+  - first:
+      213: -4262554307228166882
+    second: Exploding Bat_95
+  - first:
+      213: 1867864517827749133
+    second: Exploding Bat_96
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Exploding Bat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ee1d8daf5431b4fa5b74ed7240f6ed
+      internalID: 1412879677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exploding Bat_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acad8150ab27ab24a90f578070d4d926
+      internalID: -168109795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exploding Bat_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92701cf17128dd547857bc52a8449fd6
+      internalID: -120466317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exploding Bat_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c064d0e45dd939e4990268c8bd6bf90a
+      internalID: 1601084007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exploding Bat_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf43ab180651464fb937846e50f8cf3
+      internalID: 1494681865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exploding Bat_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a87c2e53bf2a544c9af8bf124db06fb
+      internalID: -1425390832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exploding Bat_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209c5e90b07ba574b98ca1e346fa1e55
+      internalID: 1534520170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exploding Bat_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2abeacd5e8f494baa5fb3b85693f8d
+      internalID: -1889601834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b0e488cad856e274ebab65e3311306c2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Exploding Bat_0: 1412879677
+      Exploding Bat_1: -168109795
+      Exploding Bat_2: -120466317
+      Exploding Bat_3: 1601084007
+      Exploding Bat_4: 1494681865
+      Exploding Bat_5: -1425390832
+      Exploding Bat_6: 1534520170
+      Exploding Bat_7: -1889601834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
