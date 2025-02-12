@@ -24,7 +24,6 @@ public class PlayerControl : MonoBehaviour
     public float angleMultiplier = 2f;
 
     private bool isDead = false;
-
     public int score = 0;
 
     void Start()
