@@ -24,6 +24,9 @@ public class PlayerControl : MonoBehaviour
     public float maxRotation = 45f;
     public float angleMultiplier = 2f;
 
+    [Header("Particles")]
+    public ParticleSystem deathParticles;
+
     private bool isDead = false;
     private bool gameStarted = false;
 
@@ -32,17 +35,14 @@ public class PlayerControl : MonoBehaviour
     void Start()
     {
         playerCollider = GetComponent<CircleCollider2D>();
-
         animator.SetTrigger("Idle");
-
         source = GetComponent<AudioSource>();
         player.simulated = false;
     }
 
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetMouseButtonDown(0)) && !isDead)
-        {
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetMouseButtonDown(0)) && !isDead){
             if (!gameStarted)
             {
                 player.simulated = true;
@@ -68,27 +68,29 @@ public class PlayerControl : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, targetAngle);
     }
 
-    // IEnumerator Flap(){
-    //     animator.SetTrigger("Flap");
-
-    //     yield return new WaitForSeconds(1.75f);
-    //     animator.SetTrigger("Idle");
-    // }
-
-    void OnTriggerEnter2D(Collider2D collision){
-        if (collision.CompareTag("hazard")){
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("hazard"))
+        {
             Debug.Log("BLAM!");
             isDead = true;
 
-            player.linearVelocity = UnityEngine.Vector2.zero;
+            player.linearVelocity = Vector2.zero;
             player.simulated = false;
 
             source.PlayOneShot(deathAudio);
             animator.SetTrigger("Player_Death");
-        } else if (collision.CompareTag("reward")) {
+
+            if (deathParticles != null)
+            {
+                deathParticles.Play();
+            }
+        }
+        else if (collision.CompareTag("reward"))
+        {
             Debug.Log("+1");
             source.PlayOneShot(rewardAudio);
-            score ++;
+            score++;
         }
     }
 }
