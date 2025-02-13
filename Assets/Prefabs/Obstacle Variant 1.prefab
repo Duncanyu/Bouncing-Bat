@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5357894272501100133}
   - component: {fileID: 4077210756712705854}
   - component: {fileID: 6776050960220071888}
+  - component: {fileID: 6468899879591317526}
   m_Layer: 0
   m_Name: Bottom
   m_TagString: hazard
@@ -134,6 +135,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.22, y: 8.477011}
   m_EdgeRadius: 0
+--- !u!50 &6468899879591317526
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307527728704191387}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
 --- !u!1 &3588606387052980236
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,6 +396,7 @@ GameObject:
   - component: {fileID: 3428703688580789203}
   - component: {fileID: 9003249878220518563}
   - component: {fileID: 1865685531964028063}
+  - component: {fileID: 6538813196565550941}
   m_Layer: 0
   m_Name: Top
   m_TagString: hazard
@@ -491,6 +520,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.22, y: 8.450361}
   m_EdgeRadius: 0
+--- !u!50 &6538813196565550941
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7968266552535089157}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
 --- !u!1 &8407224793253836750
 GameObject:
   m_ObjectHideFlags: 0

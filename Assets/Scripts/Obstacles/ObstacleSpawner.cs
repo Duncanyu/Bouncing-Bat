@@ -24,22 +24,29 @@ public class ObstacleSpawner : MonoBehaviour
 
     private float currentSpeed;
     private float currentSpawnInterval;
+    private float timeStart;
 
     void Start()
     {
         currentSpeed = initialSpeed;
         currentSpawnInterval = initialSpawnInterval;
         StartCoroutine(SpawnObstacles());
+        timeStart = Time.time;
     }
 
     void Update()
     {
-        currentSpeed = initialSpeed + (Time.time * speedIncreaseRate);
+        currentSpeed = initialSpeed + ((Time.time - timeStart) * speedIncreaseRate);
 
         currentSpawnInterval = Mathf.Clamp(
-            initialSpawnInterval - (Time.time * spawnIntervalDecreaseRate),
-            minSpawnInterval,
-            initialSpawnInterval);
+            initialSpawnInterval - ((Time.time - timeStart) * spawnIntervalDecreaseRate), minSpawnInterval, initialSpawnInterval);
+
+        if(PlayerControl.isDead){
+            currentSpeed = initialSpeed;
+            currentSpawnInterval = initialSpawnInterval;
+            timeStart = Time.time;
+            Debug.Log("Resetting");
+        }
     }
 
     IEnumerator SpawnObstacles()

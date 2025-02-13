@@ -3,7 +3,6 @@ using UnityEngine;
 public class SeamlessParallax : MonoBehaviour
 {
     public float scrollSpeed = 1f;
-    
     private float spriteWidth;
     private Transform clone;
 
@@ -26,6 +25,10 @@ public class SeamlessParallax : MonoBehaviour
 
     void Update()
     {
+        if(PlayerControl.isDead || !PlayerControl.gameGoing){
+            return;
+        }
+
         transform.position += Vector3.left * scrollSpeed * Time.deltaTime;
         clone.position += Vector3.left * scrollSpeed * Time.deltaTime;
 

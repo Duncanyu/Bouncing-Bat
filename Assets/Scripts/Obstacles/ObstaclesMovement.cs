@@ -6,6 +6,10 @@ public class ObstaclesMovement : MonoBehaviour
 
     void Update()
     {
+        if (PlayerControl.isDead || !PlayerControl.gameGoing){
+            return;
+        }
+
         transform.position += Vector3.left * speed * Time.deltaTime; //Only way I know how to move it as of right now
     }
 }
