@@ -1,40 +1,61 @@
 fileFormatVersion: 2
-guid: fda9ec665cbcd77438ebac88417c491c
+guid: 03b48ede91f88b34e90048f5485605e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4362115331027427146
-    second: Title_Text_0
+      213: -268614874183335502
+    second: Cosmetics_0
   - first:
-      213: 7489741383325185503
-    second: Title_Text_1
+      213: 5248188798811510935
+    second: Cosmetics_1
   - first:
-      213: 2523302063043820970
-    second: Title_Text_2
+      213: -914744989989338882
+    second: Cosmetics_2
   - first:
-      213: 1722319015370276273
-    second: Title_Text_3
+      213: -4889773703565488955
+    second: Cosmetics_3
   - first:
-      213: 4653606122351293175
-    second: Title_Text_4
+      213: 1260204496056704075
+    second: Cosmetics_4
   - first:
-      213: -2532567049204291733
-    second: Title_Text_5
+      213: 7891830796347402265
+    second: Cosmetics_5
   - first:
-      213: 1805673232905787676
-    second: Title_Text_6
+      213: 5028688727446742141
+    second: Cosmetics_6
   - first:
-      213: 7016565227685869816
-    second: Title_Text_7
+      213: 27433431796305255
+    second: Cosmetics_7
   - first:
-      213: 3390480832697006486
-    second: Title_Text_8
+      213: -8890895032956936670
+    second: Cosmetics_8
   - first:
-      213: 1168653839390138529
-    second: Title_Text_9
+      213: -1577586917494737869
+    second: Cosmetics_9
   - first:
-      213: 3984639404562688569
-    second: Title_Text_10
+      213: 3965332530450923345
+    second: Cosmetics_10
+  - first:
+      213: -5656157964392557200
+    second: Cosmetics_11
+  - first:
+      213: -5023973787868257287
+    second: Cosmetics_12
+  - first:
+      213: -261363442086606037
+    second: Cosmetics_13
+  - first:
+      213: -3829411269122904447
+    second: Cosmetics_14
+  - first:
+      213: 1329734871386061409
+    second: Cosmetics_15
+  - first:
+      213: 6563664218615921913
+    second: Cosmetics_16
+  - first:
+      213: -2413653386141338920
+    second: Cosmetics_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -76,7 +97,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -130,243 +151,309 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Title_Text_0
+      name: Cosmetics_0
       rect:
         serializedVersion: 2
-        x: 223
-        y: 959
-        width: 546
-        height: 1026
+        x: 0
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a4fdc2738c8598c30800000000000000
-      internalID: 4362115331027427146
+      spriteID: 86ed88a1fe9e96041bb55af8906d4402
+      internalID: -1319981109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Text_1
+      name: Cosmetics_1
       rect:
         serializedVersion: 2
-        x: 959
-        y: 895
-        width: 482
-        height: 1058
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fd5f3a41b18e0f760800000000000000
-      internalID: 7489741383325185503
+      spriteID: f1ce31adc5bdf584d8ae3867afe1515d
+      internalID: -513595828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Text_2
+      name: Cosmetics_2
       rect:
         serializedVersion: 2
-        x: 1599
-        y: 991
-        width: 418
-        height: 962
+        x: 2048
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aadbcb87bd1940320800000000000000
-      internalID: 2523302063043820970
+      spriteID: 9aad8351612346342b9532fadf9e2a27
+      internalID: -1935476116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Text_3
+      name: Cosmetics_3
       rect:
         serializedVersion: 2
-        x: 2175
-        y: 991
-        width: 514
-        height: 994
+        x: 3072
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1bdbb0de408e6e710800000000000000
-      internalID: 1722319015370276273
+      spriteID: 253b55d2034f6224395fa46191170bd3
+      internalID: 1069901652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Text_4
+      name: Cosmetics_4
       rect:
         serializedVersion: 2
-        x: 2815
-        y: 991
-        width: 450
-        height: 962
+        x: 0
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7f2f457cc1ee49040800000000000000
-      internalID: 4653606122351293175
+      spriteID: 70c7c4361c692dc449a8d0d609586916
+      internalID: -1894405986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Text_5
+      name: Cosmetics_5
       rect:
         serializedVersion: 2
-        x: 3007
-        y: 127
-        width: 514
-        height: 898
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b67a156dfa38adcd0800000000000000
-      internalID: -2532567049204291733
+      spriteID: 50d1ff74da89620448dc8e9d6589a13c
+      internalID: -1206422834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Text_6
+      name: Cosmetics_6
       rect:
         serializedVersion: 2
-        x: 3391
-        y: 1023
-        width: 226
-        height: 994
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c19d7cb0d3a0f0910800000000000000
-      internalID: 1805673232905787676
+      spriteID: 432e9512e87c8084e9a41c54ea5a6f17
+      internalID: 1442473506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Text_7
+      name: Cosmetics_7
       rect:
         serializedVersion: 2
-        x: 3743
-        y: 959
-        width: 514
-        height: 994
+        x: 3072
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f8f29336e8df5160800000000000000
-      internalID: 7016565227685869816
+      spriteID: f36b6dd2efc2dac4e8342fa7da205811
+      internalID: -376648298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Text_8
+      name: Cosmetics_8
       rect:
         serializedVersion: 2
-        x: 4415
-        y: 959
-        width: 482
-        height: 994
+        x: 0
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 699fca29a586d0f20800000000000000
-      internalID: 3390480832697006486
+      spriteID: bc29dfdd89e9a8f4f968ec0cc8e47fe5
+      internalID: -216017048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Text_9
+      name: Cosmetics_9
       rect:
         serializedVersion: 2
-        x: 1727
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333514b68bcc9804f8eab04dc33a984d
+      internalID: 911950784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cosmetics_10
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79896c3d54ea3e84fa0dedea09f608c7
+      internalID: 2092341749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cosmetics_11
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ce408c0e64ccc499a6099be8f4c31d
+      internalID: 1135170275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cosmetics_12
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 546
-        height: 961
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1a0ee32a974e73010800000000000000
-      internalID: 1168653839390138529
+      spriteID: 429d913926ad27948bf35658aed5bd5d
+      internalID: -189331676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Text_10
+      name: Cosmetics_13
       rect:
         serializedVersion: 2
-        x: 2399
-        y: 95
-        width: 546
-        height: 834
+        x: 1024
+        y: 0
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 93aabfa4d684c4730800000000000000
-      internalID: 3984639404562688569
+      spriteID: b512faecbe6fd2f43b0c9cd2de80ab98
+      internalID: -676928634
       vertices: []
       indices: 
       edges: []
@@ -375,7 +462,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: e945d3ef566ac8345a48999ce1afce86
     internalID: 0
     vertices: []
     indices: 
@@ -385,17 +472,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Title_Text_0: 4362115331027427146
-      Title_Text_1: 7489741383325185503
-      Title_Text_10: 3984639404562688569
-      Title_Text_2: 2523302063043820970
-      Title_Text_3: 1722319015370276273
-      Title_Text_4: 4653606122351293175
-      Title_Text_5: -2532567049204291733
-      Title_Text_6: 1805673232905787676
-      Title_Text_7: 7016565227685869816
-      Title_Text_8: 3390480832697006486
-      Title_Text_9: 1168653839390138529
+      Cosmetics_0: -1319981109
+      Cosmetics_1: -513595828
+      Cosmetics_10: 2092341749
+      Cosmetics_11: 1135170275
+      Cosmetics_12: -189331676
+      Cosmetics_13: -676928634
+      Cosmetics_14: 1696139829
+      Cosmetics_15: 1956066597
+      Cosmetics_2: -1935476116
+      Cosmetics_3: 1069901652
+      Cosmetics_4: -1894405986
+      Cosmetics_5: -1206422834
+      Cosmetics_6: 1442473506
+      Cosmetics_7: -376648298
+      Cosmetics_8: -216017048
+      Cosmetics_9: 911950784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
