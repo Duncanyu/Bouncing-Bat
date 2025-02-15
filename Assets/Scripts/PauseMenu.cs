@@ -3,8 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    void Shop()
+    public void ToShop()
     {
-        SceneManager.LoadSceneAsync("Level");
+        SceneManager.LoadSceneAsync("Shop");
+        Debug.Log("To Shop");
     }
 }
