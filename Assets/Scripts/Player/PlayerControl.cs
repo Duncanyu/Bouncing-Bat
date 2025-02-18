@@ -98,7 +98,7 @@ public class PlayerControl : MonoBehaviour
         if (gameGoing)
             player.simulated = true;
 
-        if (obstacleSpawner != null && !spawned)
+        if (obstacleSpawner != null && !spawned && !isDead)
         {
             Instantiate(obstacleSpawner, Vector3.zero, Quaternion.identity);
             spawned = true;

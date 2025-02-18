@@ -25,24 +25,6 @@ public class MainManager : MonoBehaviour
         balance = PlayerPrefs.GetInt(BalanceKey, initialBalance);
     }
 
-    public void LeaveShop()
-    {
-        SceneManager.LoadScene("Level");
-    }
-
-    public void ToShop()
-    {
-        PlayerControl pc = FindObjectOfType<PlayerControl>();
-        if(pc != null)
-        {
-            balance += pc.score;
-            pc.score = 0;
-            PlayerPrefs.SetInt(BalanceKey, balance);
-            PlayerPrefs.Save();
-        }
-        SceneManager.LoadScene("Shop");
-    }
-
     public static void UpdateBalance(int newBalance)
     {
         balance = newBalance;
