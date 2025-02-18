@@ -10,6 +10,8 @@ public class MainManager : MonoBehaviour
     public int initialBalance = 0;
     public static int cosmeticEquipped = 13;
     
+    private const string BalanceKey = "Balance";
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -20,10 +22,7 @@ public class MainManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
         
-        if (balance == 0)
-        {
-            balance = initialBalance;
-        }
+        balance = PlayerPrefs.GetInt(BalanceKey, initialBalance);
     }
 
     public void LeaveShop()
@@ -38,7 +37,16 @@ public class MainManager : MonoBehaviour
         {
             balance += pc.score;
             pc.score = 0;
+            PlayerPrefs.SetInt(BalanceKey, balance);
+            PlayerPrefs.Save();
         }
         SceneManager.LoadScene("Shop");
+    }
+
+    public static void UpdateBalance(int newBalance)
+    {
+        balance = newBalance;
+        PlayerPrefs.SetInt(BalanceKey, balance);
+        PlayerPrefs.Save();
     }
 }
