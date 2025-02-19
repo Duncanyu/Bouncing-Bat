@@ -45,7 +45,6 @@ public class ObstacleSpawner : MonoBehaviour
             currentSpeed = initialSpeed;
             currentSpawnInterval = initialSpawnInterval;
             timeStart = Time.time;
-            Debug.Log("Resetting");
         }
     }
 

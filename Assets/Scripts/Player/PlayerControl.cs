@@ -88,17 +88,33 @@ public class PlayerControl : MonoBehaviour
         spriteRender = GetComponent<SpriteRenderer>();
         rigidbody = GetComponent<Rigidbody2D>();
 
-        player.simulated = false;
         coolDownTime = abilityCooldownTime;
         gameGoing = true;
     }
 
     void Update()
     {
+        if (isDead)
+        {
+            gamePause.text = "YOU LOST, PRESS SPACE TO RETRY";
+            player.simulated = false;
+            spawned = false;
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Debug.Log("reset");
+                isDead = false;
+                score = 0;
+                gameGoing = false;
+                SceneManager.LoadSceneAsync("Level");
+            }
+            return;
+        }
+        
         if (gameGoing)
             player.simulated = true;
 
-        if (obstacleSpawner != null && !spawned && !isDead)
+        if (obstacleSpawner != null && !spawned)
         {
             Instantiate(obstacleSpawner, Vector3.zero, Quaternion.identity);
             spawned = true;
@@ -116,25 +132,17 @@ public class PlayerControl : MonoBehaviour
             return;
         }
         
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetMouseButtonDown(0)) && !isDead)
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetMouseButtonDown(0))
         {
             player.linearVelocity = new Vector2(player.linearVelocity.x, jumpPower);
             source.PlayOneShot(bounceAudio);
             animator.SetTrigger("Flap");
         }
-        else if (Input.GetKeyDown(KeyCode.Space) && isDead)
-        {
-            isDead = false;
-            spawned = false;
-            score = 0;
-            gameGoing = false;
-            SceneManager.LoadSceneAsync("Level");
-        }
         else if (Input.GetKeyDown(KeyCode.P))
         {
             gameGoing = !gameGoing;
         }
-        else if (Input.GetKey(KeyCode.E) && Time.time - timeSinceLastEcholocation >= coolDownTime && !isDead && gameGoing)
+        else if (Input.GetKey(KeyCode.E) && Time.time - timeSinceLastEcholocation >= coolDownTime && gameGoing)
         {
             if (abilityID == 1)
             {
@@ -146,7 +154,7 @@ public class PlayerControl : MonoBehaviour
             {
             }
         }
-
+        
         float yVelocity = player.linearVelocity.y;
         float targetAngle = Mathf.Clamp(yVelocity * angleMultiplier, minRotation, maxRotation);
         transform.rotation = Quaternion.Euler(0, 0, targetAngle);
@@ -156,18 +164,13 @@ public class PlayerControl : MonoBehaviour
             gamePause.text = "GAME PAUSED";
             player.simulated = false;
         }
-        else if (isDead)
-        {
-            gamePause.text = "YOU LOST, PRESS SPACE TO RETRY";
-            player.simulated = false;
-            spawned = false;
-        }
-        else if (!isDead)
+        else
         {
             gamePause.text = "";
             player.simulated = true;
         }
     }
+
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -208,6 +211,7 @@ public class PlayerControl : MonoBehaviour
                 {
                     Debug.Log("cosmeticsControl reference is null!");
                 }
+                isDead = true;
             }
             else
             {
