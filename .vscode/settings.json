@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Bouncing-Bat.sln"
+    "dotnet.defaultSolution": "Bouncing Bat.sln"
 }
